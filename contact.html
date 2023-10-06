@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="contact.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+    body{
+        background-color: rgb(12, 12, 83);
+        background-image: url(Background2.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-family: 'Bruno Ace SC', cursive;
+        font-family: 'Roboto', sans-serif;
+        font-size: 120%;
+        margin: 0;
+    }
+</style>
+<html>
+    <head>
+        <script src="JavaScript\header.js"></script>
+        <script src="JavaScript\contact.js"></script>
+    </head>
+    <body>
+
+        <div class="top-bar">
+            <div class="center">
+                <div class="top-bar-element"> <img src="Images\Logo.png" class="bottom"> </div>
+                <div class="top-bar-element"> <a href="index.html" class="bottom TB" id="TB0">Home</a> </div>
+                <div class="top-bar-element"> <a href="about.html" class="bottom TB" id="TB1">About</a> </div>
+                <div class="top-bar-element"> <a href="contact.html" class="bottom TB" id="TB2">Contact</a> </div>
+                <div class="top-bar-element" style="width: 200px;"> 
+                    <div class="bottom">
+                        <span>English</span> <input type="checkbox" id="langCheck" onclick="changeHeader(); changeBody();"> <span>中文</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rest" id="contact">
+            <div class="contact">
+                <div class="header text">
+                    Get a Quotation Today!
+                </div>
+                <div class="vertical-table"> 
+                    <div class="item"> 
+                        <div class="header2 text">Whatsapp QR:</div>
+                        <div class="image"> <img src="Images\WAQR.png" style="width: 45%;"> </div>
+                    </div>
+                    <div class="item"> 
+                        <div class="header2 text">Alternatively, email us at:</div>
+                        tanjyuhan@gmail.com*
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

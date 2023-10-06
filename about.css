@@ -1,0 +1,25 @@
+.box{
+    top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    position: relative;
+}
+.center-text {
+    font-weight: 300;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.service{
+    display: flex;
+    overflow-x: auto;
+}
+.service-logo {
+    min-width: 40px;
+    max-width: 100px;
+    margin-right: 48px;
+    margin-left: 32px;
+}

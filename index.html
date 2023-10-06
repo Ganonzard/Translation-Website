@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="home.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+    body{
+        background-color: rgb(12, 12, 83);
+        background-image: url(Background2.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-family: 'Bruno Ace SC', cursive;
+        font-family: 'Roboto', sans-serif;
+        font-size: 120%;
+        margin: 0;
+    }
+</style>
+<html>
+    <head>
+        <script src="JavaScript\header.js"></script>
+        <script src="JavaScript\home.js"></script>
+    </head>
+
+    <body>
+
+        <div class="top-bar">
+            <div class="center">
+                <div class="top-bar-element"> <img src="Images\Logo.png" class="bottom"> </div>
+                <div class="top-bar-element"> <a href="index.html" class="bottom TB" id="TB0">Home</a> </div>
+                <div class="top-bar-element"> <a href="about.html" class="bottom TB" id="TB1">About</a> </div>
+                <div class="top-bar-element"> <a href="contact.html" class="bottom TB" id="TB2">Contact</a> </div>
+                <div class="top-bar-element" style="width: 200px;"> 
+                    <div class="bottom">
+                        <span>English</span> <input type="checkbox" id="langCheck" onclick="changeHeader(); changeBody();"> <span>中文</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rest" id="home">
+            <div class="center">
+                <div>
+                    <div class="home-logos"> 
+                        <img src="Images\Affordable.png" class="home-logos-images">
+                        <h1 class="text">Affordable</h1>
+                        <p class="text">
+                            With our competitive prices, 
+                            you can expect cheap translation services without 
+                            compromising on quality or speed.
+                        </p>
+                    </div>
+                    <div class="home-logos"> 
+                        <img src="Images\Experienced.png" class="home-logos-images">
+                        <h1 class="text">Experienced</h1>
+                        <p class="text">
+                            Having been in the field for more than 30 years, 
+                            doing various kinds of documents, you can expect 
+                            professionalism and accuracy.
+                        </p>
+                    </div>
+                    <div class="home-logos"> 
+                        <img src="Images\Fast.png" class="home-logos-images">
+                        <h1 class="text">Speedy</h1>
+                        <p class="text">
+                            As our name suggests, we pride ourselves on our speed. 
+                            Expect translations to be completed as quickly as a few days.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
